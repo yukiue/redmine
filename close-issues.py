@@ -10,7 +10,7 @@ API_ACCESS_KEY = os.getenv('REDMINE_API_ACCESS_KEY')
 
 redmine = Redmine(SERVER_URL, key=API_ACCESS_KEY)
 
-resource_ids = sys.argv[1:]
+resource_ids = list(map(int, sys.argv[1:]))
 
 for resource_id in resource_ids:
     # get issue
