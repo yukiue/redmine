@@ -27,4 +27,4 @@
 # Note
 - 変数 `SERVER_URL` は環境に合わせて変更する
 - 環境変数 `REDMINE_API_ACCESS_KEY` を設定する
-- `./get-event.py | tail -1 | xargs | ./close-issues.py` を試す
+- `./get-event.py | tail -1 | xargs ./close-issues.py` を試す
