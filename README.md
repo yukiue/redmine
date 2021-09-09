@@ -23,3 +23,7 @@
   終了時刻が過ぎたイベントの開催通知の一覧を表示する
 
   usage: `python3 get-event.py`
+
+# Note
+- 変数 `SERVER_URL` は環境に合わせて変更する
+- 環境変数 `REDMINE_API_ACCESS_KEY` を設定する
