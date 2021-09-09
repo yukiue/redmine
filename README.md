@@ -1,6 +1,6 @@
 # Redmine
 
-コマンドラインから Redmine を操作するコード
+コマンドラインから [Redmine](https://www.redmine.org/) を操作するコード
 
 - `update-status.py`
 
