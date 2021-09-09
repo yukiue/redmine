@@ -21,7 +21,7 @@ for issue in issues:
     # status = issue.status
     _id = issue.id
 
-    # extract end time of event from subject
+    # event notification format
     regex = re.compile(
         r'(\d{4})-(\d{2})-(\d{2})\s(\d{2}):(\d{2})-(\d{2}):(\d{2})')
     mo = regex.search(subject)
