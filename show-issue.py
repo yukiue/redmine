@@ -29,5 +29,3 @@ print('--- --- --- --- --- --- --- --- --- --- --- --- ---\n')
 print(issue.description)
 print('\n--- --- --- --- --- --- --- --- --- --- --- --- ---')
 print(f'status: {issue.status.name}')
-if hasattr(issue, 'assigned'):
-    print(f'assigned: {issue.assigned_to.name}')
