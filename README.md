@@ -29,6 +29,15 @@
   日付順でソートした開催通知の一覧を表示する
   
   usage: `python3 sort-event.py`
+  
+- `get-proofread.py`
+
+  指定した ISSUE_ID のチケットの添付ファイルをダウンロードする
+  `*.pdf` ファイル と対応する `*.ant` ファイルがあれば、注釈を埋め込んだ `*-annotated.pdf` ファイルを生成する
+  
+  usage: `python3 get-proofread.py [ISSUE_ID]`
+  
+  example: `python3 get-proofread.py 1`
 
 # Note
 - 変数 `SERVER_URL` は環境に合わせて変更する
