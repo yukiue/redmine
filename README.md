@@ -39,6 +39,14 @@
   
   example: `python3 get-proofread.py 1`
 
+- `show-issue.py`
+
+  指定した ISSUE_ID のチケットの内容を表示する
+  
+  usage: `python3 show-issue.py [ISSUE_ID]`
+  
+  example: `python3 show-issue.py 1`
+
 # Note
 - 変数 `SERVER_URL` は環境に合わせて変更する
 - 環境変数 `REDMINE_API_ACCESS_KEY` を設定する
