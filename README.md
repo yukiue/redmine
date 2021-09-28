@@ -32,7 +32,7 @@
   
 - `get-proofread.py`
 
-  指定した ISSUE_ID のチケットの添付ファイルをダウンロードする
+  指定した ISSUE_ID のチケットの添付ファイルをダウンロードする  
   `*.pdf` ファイル と対応する `*.ant` ファイルがあれば、注釈を埋め込んだ `*-annotated.pdf` ファイルを生成する
   
   usage: `python3 get-proofread.py [ISSUE_ID]`
